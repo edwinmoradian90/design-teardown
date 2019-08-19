@@ -1,20 +1,64 @@
-html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
- padding: 0;
- margin: 0;
- font-size: 100%;
- font-weight: normal;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+pre,
+code,
+address,
+variable,
+form,
+fieldset,
+blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
 }
-table { border-collapse: collapse; border-spacing: 0; }
-td, th, caption { font-weight: normal; text-align: left; }
-img, fieldset { border: 0; }
-ol { padding-left: 1.4em; list-style: decimal; }
-ul { padding-left: 1.4em; list-style:square; }
-q:before, q:after { content:''; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th,
+caption {
+  font-weight: normal;
+  text-align: left;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+ol {
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+
+q:before,
+q:after {
+  content: '';
+}
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*END OF RESET CSS*/
@@ -25,7 +69,15 @@ q:before, q:after { content:''; }
     background: url(../img/smashing_s.png) no-repeat;
   }
 
-  .nav_icon { display: none; }
+  .nav_icon {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .box4 {
+    display: none;
+  }
 }
 
 
@@ -35,7 +87,7 @@ li {
 
 ul {
   padding-top: 23px;
-  justify-content:  space-around;
+  justify-content: space-around;
 }
 
 h1 {
@@ -48,7 +100,9 @@ h1 {
   font-size: 30px;
 }
 
-.flex_conteiner {  display: flex;}
+.flex_conteiner {
+  display: flex;
+}
 
 .principal_header {
   width: auto;
@@ -109,9 +163,13 @@ h1 {
   max-width: 300px;
 }
 
-.nav_link:hover{ color:black; }
+.nav_link:hover {
+  color: black;
+}
 
-.principal_header nav ul li a span {  font-style: italic; }
+.principal_header nav ul li a span {
+  font-style: italic;
+}
 
 .nav_icon {
   width: 150px;
@@ -132,7 +190,9 @@ h1 {
   font-size: 18px;
 }
 
-.nav_topics a * { margin: 8px 4.5px; }
+.nav_topics a * {
+  margin: 8px 4.5px;
+}
 
 .main_header {
   position: relative;
@@ -143,6 +203,8 @@ h1 {
   background-color: blue;
   height: 100px;
 }
+
+
 
 .box1 {
   width: 100%;
@@ -170,12 +232,30 @@ h1 {
 
 .latest_articles {
   display: grid;
-  grid-template-columns: 4 4;
+  grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
 .latest_box {
   height: 500px;
-  width: 33%;
+  width: 100%;
+}
+
+.box {
+  grid-area: box;
+}
+
+.ad {
+  grid-area: ad;
+}
+
+.latest_post {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "box box box ad"
+    "box box ad ad"
+    "ad ad box box";
 }
 
 .articles {
@@ -183,35 +263,45 @@ h1 {
   transition: background 0.5s;
 }
 
-.articles:hover { background: url(../img/articles_hover.png) no-repeat center top; }
+.articles:hover {
+  background: url(../img/articles_hover.png) no-repeat center top;
+}
 
 .books {
   background: url(../img/books.png) no-repeat center top;
   transition: background 0.5s;
 }
 
-.books:hover { background: url(../img/books_hover.png) no-repeat center top; }
+.books:hover {
+  background: url(../img/books_hover.png) no-repeat center top;
+}
 
 .events {
   background: url(../img/events.png) no-repeat center top;
   transition: background 0.5s;
 }
 
-.events:hover { background: url(../img/events_hover.png) no-repeat center top; }
+.events:hover {
+  background: url(../img/events_hover.png) no-repeat center top;
+}
 
 .jobs {
   background: url(../img/jobs.png) no-repeat center top;
   transition: background 0.5s;
 }
 
-.jobs:hover { background: url(../img/jobs_hover.png) no-repeat center top; }
+.jobs:hover {
+  background: url(../img/jobs_hover.png) no-repeat center top;
+}
 
 .membership {
   background: url(../img/membership.png) no-repeat center top;
   transition: background 0.5s;
 }
 
-.membership:hover { background: url(../img/membership_hover.png) no-repeat center top; }
+.membership:hover {
+  background: url(../img/membership_hover.png) no-repeat center top;
+}
 
 .center {
   position: relative;
