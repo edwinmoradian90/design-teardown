@@ -202,7 +202,10 @@ h1 {
   background-color: yellow;
 }
 
-.box1, .box2, .box3, .box4 {
+.box1,
+.box2,
+.box3,
+.box4 {
   height: 100%;
 }
 
@@ -217,7 +220,10 @@ h1 {
 }
 
 .box {
-  grid-area: box;
+  grid-column-start: 1;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .ad {
@@ -226,12 +232,8 @@ h1 {
 
 .latest_post {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  grid-template-areas:
-    "box box box ad"
-    "box box ad ad"
-    "ad ad box box";
 }
 
 .articles {
@@ -315,7 +317,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1920px){
+@media only screen and (max-width: 1919px) {
   .latest_articles {
     grid-template-columns: 50% 50%;
   }
