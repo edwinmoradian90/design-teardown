@@ -84,13 +84,11 @@ h1 {
   font-size: 30px;
 }
 
-.flex_conteiner {
-  display: flex;
-}
+.bold { font-weight: 700; }
 
-.left {
-  float: left;
-}
+.flex_container {  display: flex;}
+
+.left {  float: left;}
 
 .principal_header {
   width: auto;
@@ -294,6 +292,64 @@ h1 {
   color: black;
 }
 
+.smashing_print {
+  padding-top: 100px; 
+  height: 140vh;
+  width: 100%;
+  background: green linear-gradient(#009245 50%,#8bc53f 100%);
+  justify-content: center;
+  text-align: center;
+}
+
+.smashing_div {
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.smashing_div h1 {
+  width: 100%;
+  font-size: 3em;
+  margin: 15px auto;
+}
+
+.smashing_div p, .smashing_div>span {
+  font-size: 1.8em;
+}
+
+.smashing_div p {
+  width: 800px;
+  margin: 25px auto;
+}
+
+.smashing_div>div{
+  margin: 90px 0;
+}
+
+.smashing_div h1>a {
+  color: white;
+}
+
+.smashing_div img {
+  width: 100%;
+  height: auto;
+}
+
+.smashing_button {
+  padding: 20px 60px;
+  border-radius: 10px;
+  background: white;
+  border: 0; 
+  color: #267DCC;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+
+/* Navbar hover effect */
+
 .articles {
   background: url(../img/articles.png) no-repeat center top;
   transition: background 0.5s;
@@ -339,6 +395,7 @@ h1 {
   background: url(../img/membership_hover.png) no-repeat center top;
 }
 
+/* -----------------------   */
 .center {
   position: relative;
   display: flex;
