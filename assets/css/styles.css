@@ -1,4 +1,6 @@
-html { overflow-x: hidden; }
+html {
+  overflow-x: hidden;
+}
 
 html,
 body,
@@ -84,11 +86,21 @@ h1 {
   font-size: 30px;
 }
 
-.bold { font-weight: 700; }
+.bold {
+  font-weight: 700;
+}
 
-.flex_container {  display: flex;}
+.flex_container {
+  display: flex;
+}
 
-.left {  float: left;}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
 
 .principal_header {
   width: auto;
@@ -274,6 +286,7 @@ h1 {
   top: -15px;
   z-index: 1000;
   background-color: pink;
+  float: left;
 }
 
 .latest_articles_link {
@@ -293,10 +306,10 @@ h1 {
 }
 
 .smashing_print {
-  padding-top: 100px; 
+  padding-top: 100px;
   height: 140vh;
   width: 100%;
-  background: green linear-gradient(#009245 50%,#8bc53f 100%);
+  background: green linear-gradient(#009245 50%, #8bc53f 100%);
   justify-content: center;
   text-align: center;
 }
@@ -315,7 +328,8 @@ h1 {
   margin: 15px auto;
 }
 
-.smashing_div p, .smashing_div>span {
+.smashing_div p,
+.smashing_div > span {
   font-size: 1.8em;
 }
 
@@ -324,11 +338,11 @@ h1 {
   margin: 25px auto;
 }
 
-.smashing_div>div{
+.smashing_div > div {
   margin: 90px 0;
 }
 
-.smashing_div h1>a {
+.smashing_div h1 > a {
   color: white;
 }
 
@@ -341,13 +355,83 @@ h1 {
   padding: 20px 60px;
   border-radius: 10px;
   background: white;
-  border: 0; 
-  color: #267DCC;
+  border: 0;
+  color: #267dcc;
   font-size: 1.8em;
   font-weight: 700;
 }
 
+.person_week {
+  width: 93%;
+  height: 450px;
+  margin: 0 auto;
+  padding: 70px 0px 0px 0px;
+}
 
+.person_week div {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  float: left;
+}
+
+.person_week h3 {
+  font-size: 23px;
+}
+
+.person_week p {
+  margin: 30px;
+  font-size: 23px;
+}
+
+.person_week_col_left {
+  width: 95%;
+  height: 120vh;
+  margin: auto;
+  background-color: lightblue;
+}
+
+.person_week_box {
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  padding: 30px;
+}
+
+.person_week_box p {
+  font-size: 22px;
+  padding: 10px 0;
+  line-height: 1.5em;
+}
+
+.person_week_picture {
+  height: 80px;
+  width: 80px;
+  background-color: lime;
+}
+
+.text_container {
+  width: 80%;
+  margin-left: 80px;
+}
+
+.text_container span {
+  color: grey;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.person_week_title {
+  font-size: 2em;
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+}
+
+.person_week_author a {
+  color: #666666;
+  font: 22px;
+}
 /* Navbar hover effect */
 
 .articles {
