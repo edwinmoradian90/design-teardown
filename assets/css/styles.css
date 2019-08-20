@@ -267,13 +267,29 @@ h1 {
   background-color: rgba(0, 0, 0, 0.678);
 }
 
-.marker { 
+.marker {
   width: 40px;
   margin-left: 10px;
   position: relative;
   top: -15px;
   z-index: 1000;
   background-color: pink;
+}
+
+.latest_articles_link {
+  width: 100vw;
+  height: 300px;
+  clear: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest_articles_link a {
+  border-bottom: 5px solid red;
+  padding: 10px 0px 20px 0px;
+  text-decoration: none;
+  color: black;
 }
 
 .articles {
