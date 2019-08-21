@@ -99,14 +99,17 @@ footer a {
   color: white;
 }
 
-footer>span, footer>p { 
+footer>span,
+footer>p {
   text-align: center;
 }
 
-footer>ul>li { font-size: 1.920em; }
+footer>ul>li {
+  font-size: 1.920em;
+}
 
-footer ul>li{ 
-  display: inline-block; 
+footer ul>li {
+  display: inline-block;
   padding: 10px;
 }
 
@@ -116,7 +119,9 @@ footer>span {
   font-weight: 700;
 }
 
-footer ul { text-align: center; }
+footer ul {
+  text-align: center;
+}
 
 footer>p {
   font-size: 1.2em;
@@ -125,7 +130,7 @@ footer>p {
 
 footer>.magazine_topics li::before {
   content: "\2022";
-  color: rgba(0,0,0,0.37);
+  color: rgba(0, 0, 0, 0.37);
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -134,7 +139,7 @@ footer>.magazine_topics li::before {
 
 .magazine_topics {
   width: 90%;
-  margin: 20px auto 75px auto ;
+  margin: 20px auto 75px auto;
 }
 
 footer div {
@@ -146,13 +151,13 @@ footer div {
 }
 
 footer div>ul {
-  width: 800px;  
+  width: 800px;
 }
 
 footer div>figure {
   width: 11em;
-  margin-top: -20px; 
-  margin-left: 300px; 
+  margin-top: -20px;
+  margin-left: 300px;
 }
 
 footer div>figure>img {
@@ -160,15 +165,36 @@ footer div>figure>img {
   height: auto;
 }
 
+/* classes */
+
+.bigger:hover {
+  transform: scale(1.05);
+  z-index: 100000;
+  box-shadow: 1px 1px 10px rgb(184, 182, 182);
+  background-color: white;
+}
+
+.color_change:hover {
+  color: #d33a2c;
+}
+
+.grey {
+  background-color: #f6f3f2;
+}
+
 .aditional_links {
   display: inline-block;
   width: 600px;
-  margin-left: 200px; 
+  margin-left: 200px;
 }
 
-.footer_link { text-decoration: none; }
+.footer_link {
+  text-decoration: none;
+}
 
-.footer_link:hover { color: black; }
+.footer_link:hover {
+  color: black;
+}
 
 .bold {
   font-weight: 700;
@@ -325,10 +351,11 @@ footer div>figure>img {
   background: white;
   border-top: 20px solid white;
   padding: 50px;
+  transition: transform .3s;
 }
 
 .ad_1 {
-  width: 25%;
+  width: 24.6%;
   height: 70vh;
   border-top: 20px solid white;
 }
@@ -348,6 +375,17 @@ footer div>figure>img {
   position: relative;
   margin: 0 auto;
 }
+
+.latest_post article i {
+  height: 100px;
+  width: 100px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .latest_posts_title {
   transform: rotate(90deg);
@@ -369,7 +407,6 @@ footer div>figure>img {
   position: relative;
   top: -15px;
   z-index: 1000;
-  background-color: pink;
   float: left;
 }
 
@@ -777,6 +814,26 @@ h5>a {
   background: url(../img/smashing_magazine.png) no-repeat;
   width: 255px;
   height: 100px;
+}
+
+.fixed_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: rgba(49, 49, 49, 0.664);
+  position: fixed;
+  top: 93vh;
+  left: 95.5vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  padding-top: 20px;
+}
+
+.fixed_icon:hover {
+  background-color: rgb(26, 26, 26);
 }
 
 /* ids */
