@@ -295,7 +295,7 @@ footer div>figure>img {
 }
 
 .main_header div>h2:last-child {
-  box-shadow: 0px 60px 30px rgba(0,0,0,0.5);
+  box-shadow: 0px 60px 30px rgba(0, 0, 0, 0.5);
 }
 
 .seriously_red {
@@ -307,7 +307,7 @@ footer div>figure>img {
 .seriously_red_p {
   border: 2.2px solid white;
   border-radius: 8px;
-  padding: 8px; 
+  padding: 8px;
   font-size: 1.2em;
   font-weight: 700;
   font-family: verdana;
@@ -431,6 +431,34 @@ footer div>figure>img {
   border-top: 20px solid white;
   padding: 50px;
   transition: transform .3s;
+}
+
+.box p:nth-child(1) {
+  font-size: .8em;
+  color: #666666;
+}
+
+.box h1 {
+  height: 150px;
+}
+
+.box a:nth-child(1) {
+  color: black;
+}
+
+.box p a:nth-child(1) {
+  font-size: 1.3em;
+  padding-left: 5px;
+  color: #666666;
+}
+
+.article_text {
+  padding-top: 20px;
+}
+
+.box i {
+  width: 100%;
+  padding-right: 80px;
 }
 
 .ad_1 {
