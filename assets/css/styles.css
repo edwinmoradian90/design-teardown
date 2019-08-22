@@ -798,7 +798,7 @@ footer div>figure>img {
   padding-bottom: 45px;
 }
 
-.smashing_newsletter_content div {
+.smashing_newsletter_content>div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -824,27 +824,28 @@ footer div>figure>img {
 }
 
 .input_container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 550px;
+  height: 90px;
+  margin: 10px auto;
 }
 
 .smashing_newsletter_input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  width: 275px;
-  height: 65px;
-  font-size: .8em;
-  border-right: 1px solid #666666;
+  height: 62px;
+  width: 65%;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  color: black;
 }
 
 .smashing_newsletter_button {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  width: 185px;
-  height: 65px;
-  font-size: 1em;
+  height: 61.402px;
+  width: 34%;
+  font-size: 1.25em;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: -4px; 
+  border: .5px solid gray;
 }
 
 .smashing_newsletter_content h5,
@@ -853,8 +854,6 @@ h5>a {
   color: white;
   font-size: 1.1em;
 }
-
-
 
 
 /* Navbar hover effect */
