@@ -244,34 +244,6 @@ footer div>figure>img {
   font-weight: bold;
 }
 
-.main_header_button {
-  margin-top: 25px;
-  margin-right: 60px;
-  background-color: transparent;
-  border-radius: 10px;
-  color: white;
-  font-size: 19px;
-  font-weight: bold;
-  border-color: white;
-  padding: 0px;
-  height: 50px;
-  min-width: 200px;
-  max-width: 300px;
-}
-
-.main_header_button:hover {
-  background-color: white;
-  border-radius: 10px;
-  color: red;
-  font-size: 19px;
-  font-weight: bold;
-  border-color: white;
-  padding: 0px;
-  height: 50px;
-  min-width: 200px;
-  max-width: 300px;
-}
-
 .nav_link:hover {
   color: black;
 }
@@ -304,29 +276,98 @@ footer div>figure>img {
 }
 
 .main_header {
-  position: relative;
+  position: absolute;
+  width: 100%;
+  padding: 50px;
   justify-content: space-between;
-  display: flex;
-  left: 0;
-  right: 0;
-  background-color: blue;
-  height: 100px;
 }
 
+.main_header div {
+  text-align: center;
+  width: 400px;
+}
+
+.main_header div>h2 {
+  display: inline-block;
+  background-color: white;
+  font: 700 1.8em Arial;
+  padding: 5px;
+}
+
+.main_header div>h2:last-child {
+  box-shadow: 0px 60px 30px rgba(0,0,0,0.5);
+}
+
+.seriously_red {
+  text-decoration: none;
+  height: 50px;
+  align-self: flex-end;
+}
+
+.seriously_red_p {
+  border: 2.2px solid white;
+  border-radius: 8px;
+  padding: 8px; 
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: verdana;
+  color: white;
+}
+
+.seriously_red_p:hover {
+  background-color: white;
+  color: #D33A2C;
+}
+
+.seriously_red_img {
+  height: auto;
+  margin-top: 10px;
+}
+
+/*
+
+.main_header_button {
+  margin-top: 25px;
+  margin-right: 60px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  border-color: white;
+  padding: 0px;
+  height: 50px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.main_header_button:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: red;
+  font-size: 19px;
+  font-weight: bold;
+  border-color: white;
+  padding: 0px;
+  height: 50px;
+  min-width: 200px;
+  max-width: 300px;
+}*/
+
 .box1 {
-  background-color: #D33A2C
+  background-color: #D33A2C;
 }
 
 .box2 {
-  background-color: rgba(211, 58, 44, 0.973)
+  background-color: rgba(211, 58, 44, 0.973);
 }
 
 .box3 {
-  background-color: rgb(211, 58, 44)
+  background-color: rgb(211, 58, 44);
 }
 
 .box4 {
-  background-color: rgb(211, 58, 44)
+  background-color: rgb(211, 58, 44);
 }
 
 .box1,
@@ -349,6 +390,8 @@ footer div>figure>img {
   flex-direction: column;
   align-items: center;
   color: white;
+  padding-top: 280px;
+  padding-bottom: 50px;
 }
 
 .latest_box h1 {
