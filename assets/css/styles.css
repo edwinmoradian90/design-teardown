@@ -93,6 +93,7 @@ footer {
   margin-top: 425px;
   background-color: #d33a2c;
   color: white;
+  overflow-y: hidden;
 }
 
 footer a {
@@ -322,6 +323,12 @@ footer div>figure>img {
 .seriously_red_img {
   height: auto;
   margin-top: 10px;
+}
+
+.bird_img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /*
@@ -844,7 +851,7 @@ footer div>figure>img {
   font-size: 1.25em;
   padding: 10px;
   border-radius: 0px 10px 10px 0px;
-  margin-left: -4px; 
+  margin-left: -4px;
   border: .5px solid gray;
 }
 
