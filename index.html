@@ -1,13 +1,596 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Design Teardown</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>design-teardown</title>
 </head>
 
-<body></body>
+<body>
+  <header class="principal_header">
+    <nav>
+      <ul class="flex_container">
+        <li>
+          <a href="#">
+            <div class="smash_icon"></div>
+          </a>
+        </li>
+
+        <li class="flex_container">
+          <a class="nav_link" href="#">
+            <div class="nav_icon articles">
+              <h2>Articles</h2>
+              <span>Design &#38; development</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="nav_link" href="#">
+            <div class="nav_icon books">
+              <h2>Books</h2>
+              <span>Physical &#38; digital books</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="nav_link" href="#">
+            <div class="nav_icon events">
+              <h2>Events</h2>
+              <span>Conferences &#38; workshops</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="nav_link" href="#">
+            <div class="nav_icon jobs">
+              <h2>Jobs</h2>
+              <span>Find work &#38; employees</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="nav_link" href="#">
+            <div class="nav_icon membership">
+              <h2>Membership</h2>
+              <span>Webinars &#38; early-birds</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav_topics">
+          <a class="flex_container" href="#"><i class="fa fa-search"></i>
+            <h2>Topics</h2>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <header class="flex_container main_header">
+      <div></div>
+      <div>
+        <h2>Don’t Miss These Latest</h2>
+        <h2>Articles</h2>
+      </div>
+      <a href="#" class="flex_container seriously_red">
+        <div class="flex_container seriously_red">
+            <img class="rotate_effect seriously_red_img" src="assets/img/seriously_red.png" alt="Not found red img"/>
+            <p class="seriously_red_p"> Seriously, red&#63;</p>
+        </div>
+      </a>
+    </header>
+    <div class="latest_articles">
+      <div class="latest_box box1">
+        <div>
+          <div class="latest_box_person_container">
+            <div class="person_week_picture left rotate_effect"></div>
+            <h3>Rachel Andrew <span>wrote</span></h3>
+          </div>
+          <h1>Pitching Your Writing To Publications</h1>
+          <i class="fa fa-comment left"></i>
+          <h3>Leave a comment</h3>
+          <ul>
+            <li>&#35;<a>Community</a></li>
+            <li>&#35;<a>Content</a></li>
+            <li>&#35;<a>Communication</a></li>
+          </ul>
+          <div>
+           <i class="fa fa-arrow-right arrow"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest_box box2">
+        <div>
+          <div class="latest_box_person_container">
+            <div class="person_week_picture left rotate_effect"></div>
+            <h3>Rachel Andrew <span>wrote</span></h3>
+          </div>
+          <h1>Pitching Your Writing To Publications</h1>
+          <i class="fa fa-comment left"></i>
+          <h3>Leave a comment</h3>
+          <div>
+            <ul>
+              <li>&#35;<a>Community</a></li>
+              <li>&#35;<a>Content</a></li>
+              <li>&#35;<a>Communication</a></li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa fa-arrow-right left"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest_box box3">
+        <div>
+          <div class="latest_box_person_container">
+            <div class="person_week_picture left rotate_effect"></div>
+            <h3>Rachel Andrew <span>wrote</span></h3>
+          </div>
+          <h1>Pitching Your Writing To Publications</h1>
+          <i class="fa fa-comment left"></i>
+          <h3>Leave a comment</h3>
+          <div>
+            <ul>
+              <li>&#35;<a>Community</a></li>
+              <li>&#35;<a>Content</a></li>
+              <li>&#35;<a>Communication</a></li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="latest_box box4">
+        <div>
+          <div class="latest_box_person_container">
+            <div class="person_week_picture left rotate_effect"></div>
+            <h3>Rachel Andrew <span>wrote</span></h3>
+          </div>
+          <h1>Pitching Your Writing To Publications</h1>
+          <i class="fa fa-comment left"></i>
+          <h3>Leave a comment</h3>
+          <div>
+            <ul>
+              <li>&#35;<a>Community</a></li>
+              <li>&#35;<a>Content</a></li>
+              <li>&#35;<a>Communication</a></li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section >
+    <div class="marker">
+      <div class="line"></div>
+      <span class="latest_posts_title">LATEST POSTS</span>
+    </div>
+
+    <div class="latest_post">
+
+      <!--row 1-->
+      <article class="box bigger grey left">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="article_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right"></i>
+      </article>
+
+      <article class="box bigger left">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="article_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right"></i>
+      </article>
+
+      <article class="box bigger left ">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="article_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right"></i>
+      </article>
+
+      <img class="ad_1 left" src="https://via.placeholder.com/150" alt="advert" />
+
+      <!--row 2-->
+      <article class="box bigger left">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="article_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right"></i>
+      </article>
+
+      <article class="box bigger left">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="artcile_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right ad"></i>
+      </article>
+
+      <img class="ad_2 left" src="https://via.placeholder.com/150" alt="advert" />
+
+      <!--row 3-->
+      <img class="ad_2 left " src="https://via.placeholder.com/150" alt="advert" />
+
+      <article class="box bigger left">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="article_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+          type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right ad"></i>
+      </article>
+
+      <article class="box bigger left">
+        <p>6 DAYS AGO</p>
+        <h1><a href="#">Movie Poster Designs To Inspire Your PWA Hero Images</a> </h1>
+        <p>by<a href="#">Suzanne Scacca </a></p>
+        <p class="article_text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+          type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.</p>
+        <i class="fa fa-arrow-right"></i>
+      </article>
+    </div>
+    <div class="latest_articles_link">
+      <a class="color_change" href="#"> SEE ALL LATEST ARTICLES <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <section class="flex_container smashing_print">
+    <div class="flex_container smashing_div">
+      <span>COMING UP NEXT • july 24–26</span>
+      <h1><a href="#">Smashing Print &#35;1: Ethics &#38; Privacy</a></h1>
+      <p>Meet our new <span class="bold">printed magazine</span>, exploring topics that will make us all think, and will
+        remain useful as time passes by. Friendly, practical and approachable. Pitching Your Writing To Publication
+      </p>
+      <div>
+        <button class="smashing_button">Download a free PDF preview <i class="fa fa-arrow-right"></i></button>
+      </div>
+      <img
+        src="https://d33wubrfki0l68.cloudfront.net/148069bc1849f0c7b2304c945073dbdfdb6341f0/b12bb/images/printed-mag/printmag-homepage-opt.svg"
+        alt="Not fount cat logo" />
+    </div>
+  </section>
+
+  <section class="community_links">
+    <div class="marker">
+      <div class="line"></div>
+      <span class="latest_posts_title">COMMUNITY LINKS</span>
+    </div>
+
+    <div class="person_week">
+      <div class="rotate_effect"></div>
+
+      <h3>PERSON OF THE WEEK</h3>
+      <p>Milica Mihajlija is a web developer from Belgrade who describes herself as “in love with all things Internet.”
+        Deeply caring about performance, she is currently writing for Google about how you can guarantee your site loads
+        quickly. Before that, she worked on the Servo engine as an intern at Mozilla. Milica is also a Mozilla Tech
+        Speaker and, as a believer in the open web, she’s always exploring new technologies that are pushing it forward
+        — like WebAssembly to which she wrote a comprehensive guide. You can find her as @bibydigital on Twitter. Thank
+        you for sharing and caring, dear Milica!</p>
+
+    </div>
+    <div class="person_week_col_left">
+      <div class="person_week_box left">
+        <div class="person_week_picture left rotate_effect"></div>
+        <div class="text_container">
+          <p class="person_week_author">
+            <a href="#">Laurie Barth</a> wrote
+          </p>
+          <a class="person_week_title" href="#">ES2019 Tips And Tricks</a>
+          <p>
+            <span>august 20, 2019 - </span> The ECMAScript standard has been updated again with the addition of new
+            features in ES2019. Laurie Barth wrote up what you need to know.
+          </p>
+        </div>
+      </div>
+
+      <div class="person_week_box right">
+        <div class="person_week_picture left rotate_effect"></div>
+        <div>
+          <p class="person_week_author">
+            <a href="#">Addy Osmani</a> wrote
+          </p>
+          <a class="person_week_title" href="#tips">Prefetching Next-Page Navigation</a>
+          <p class="text_container">
+            <span>august 19, 2019 - </span> Two tips to speed up next-page navigation come from Addy Osmani: Quicklink
+            prefetches in-viewport links during idle time and Guess.js predictively prefetches links that are likely to
+            be
+            visited using analytics.
+          </p>
+        </div>
+      </div>
+
+      <div class="person_week_box left">
+        <div class="person_week_picture left rotate_effect"></div>
+        <div>
+          <p class="person_week_author"><a href="#">Mandy Michael </a> wrote</p>
+          <a class="person_week_title" href="#tips">Ambient Light Animation</a>
+          <p class="text_container">
+            <span>august 16, 2019 - </span> Thanks to the Ambient Light API, you can change the content on your page
+            based
+            on the light level in the room. Mandy Michael built an inspiring demo that shows how it works in practice.
+          </p>
+        </div>
+      </div>
+
+      <div class="person_week_box right">
+        <div class="person_week_picture left rotate_effect"></div>
+        <div>
+          <p class="person_week_author">
+            <a href="#">Mark Root-Wiley</a> wrote
+          </p>
+          <a class="person_week_title" href="#tips">Conference Schedule With CSS Grid</a>
+          <p class="text_container">
+            <span>august 15, 2019 - </span> Mark Root-Wiley gained a new appreciation for CSS Grid when he built a
+            flexible layout for a conference schedule. Over on CSS Tricks he takes us through the process step by step.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="person_week_box left">
+        <div class="person_week_picture left rotate_effect"></div>
+        <div>
+          <p class="person_week_author">
+            <a href="#">Tomas Trajan </a> wrote
+          </p>
+          <a class="person_week_title" href="#tips">Lazy Loading Angular Elements</a>
+          <p class="text_container">
+            <span>august 14, 2019 - </span> Tomas Trajan summarized how to lazy load Angular elements or any other Web
+            Components in your Angular applications.
+          </p>
+        </div>
+      </div>
+
+      <div class="person_week_box right">
+        <div class="person_week_picture left rotate_effect"></div>
+        <div>
+          <p class="person_week_author">
+            <a href="#">Ales Nesetril</a> wrote
+          </p>
+          <a class="person_week_title" href="#tips">Work Responsibly</a>
+          <p class="text_container">
+            <span>august 13, 2019 - </span> Ales Nesetril’s new project Work Responsibly is a collection of resources
+            for
+            a healthy, balanced, mindful, and more responsible approach to work.
+          </p>
+        </div>
+      </div>
+
+      <div class="latest_articles_link">
+        <a class="color_change" href="#">MORE LINKS ON TWITTER<i class="fa fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="flex_container featured_smashing_book">
+      <div class="flex_container design_systems">
+        <span>FEATURED SMASHING BOOK</span>
+        <h1><a href="#">Design Systems</a></h1>
+        <p>
+          Meet <span class="bold">Design Systems</span>, a recent Smashing book in which Alla Kholmatova explores how to set up an<span class="bold"> effective design system</span> to create great digital products. With common traps, gotchas and lessons learned.
+        </p>
+        <div>
+          <button class="smashing_button">Table of Contents <i class="fa fa-arrow-right"></i></button>
+        </div>        
+    </div>
+    <figure>
+      <img class="featured_book rotate_effect" src="assets/img/featured_book.png" alt="featured book" width="200" height="280" />
+    </figure>
+    </div>
+  </section>
+
+  <section class="curated_posts">
+    <div class="curated_container">
+      <div class="curated_box bigger">
+        <div>
+          <p>GUIDES</p>
+          <h1>New Front-End Challenges To Master</h1>
+          <ul>
+            <li><a href="#">CSS Grid Layout</a></li>
+            <li><a href="#">Pattern Library</a></li>
+            <li><a href=#>Progressive Web Apps</a></li>
+            <li><a href="#">Switching to HTTPS</a></li>
+            <li><a href="#">HTTP/2 Guidelines</a></li>
+            <li><a href="#">React & Vue.js</a></li>
+            <li><a href="#">Redux For Designers</a></li>
+            <li><a href="#">Vue Components</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="curated_box bigger">
+        <div>
+          <p>GUIDES</p>
+          <h1>Performance Optimization & Strategy</h1>
+          <ul>
+            <li><a href="#">Quick Performance Wins</a></li>
+            <li><a href="#">Building For Performance</a></li>
+            <li><a href="#">Front-End Optimization</a></li>
+            <li><a href="#">Back-End Optimization</a></li>
+            <li><a href="#">Better Compression</a></li>
+            <li><a href="#">Progressive Web Apps</a></li>
+            <li><a href="#">Perceived Performance</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="curated_box bigger">
+        <div>
+          <p>GUIDES</p>
+          <h1>Design Patterns & Checklists</h1>
+          <ul>
+            <li><a href="#">Responsive Art-Direction</a></li>
+            <li><a href="#">Perfect Configurator</a></li>
+            <li><a href="#">Perfect Web Form</a></li>
+            <li><a href="#">Perfect Accordion</a></li>
+            <li><a href="#">Perfect Date Picker</a></li>
+            <li><a href="#">Perfect Slider</a></li>
+            <li><a href="#">Perfect Comparison Table</a></li>
+            <li><a href="#">Perfect Infinite Scroll</a></li>
+            <li><a href="#">Perfect Carousel</a></li>
+            <li><a href="#">Privacy UX</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="curated_box bigger">
+        <div>
+          <p>GUIDES</p>
+          <h1>Improving Workflow & Data Protection</h1>
+          <ul>
+            <li><a href="#">GDPR For Developers</a></li>
+            <li><a href="#">Privacy Framework</a></li>
+            <li><a href="#">Estimating Time</a></li>
+            <li><a href="#">Dealing With Irrational Clients</a></li>
+            <li><a href="#">Getting Deliverables Right</a></li>
+            <li><a href="#">Meeting Deadlines</a></li>
+            <li><a href="#">Convincing Clients</a></li>
+            <li><a href="#">Invoicing Clients</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="smashing_newsletter_container">
+      <div class="smashing_newsletter_card">
+        <div class="smashing_newsletter_content">
+          <div>
+          <h1>Smashing Newsletter</h1>
+          <p>Imagine you wrote a beautiful song and nobody discovered it.
+            <br>
+             That would make any cat sad. Don't let that happen!</p>
+          <img src="https://d33wubrfki0l68.cloudfront.net/ce7741e1659c0366fda51555365194e0bfd136c0/ae578/images/smashing-cat/cat-with-trampet.svg" alt="Not found funny cat">
+          <div class="">
+            <div class="input_container">
+              <input class="smashing_newsletter_input" placeholder="Your (smashing) email"/>
+              <button class="smashing_button smashing_newsletter_button">Subscribe<i class="fa fa-arrow-right"></i></button>
+            </div>            
+          </div>
+          <h5><a href="#useful">Useful tips for web designers.</a> Sent 2× a month.<br>
+              You can unsubscribe any time — obviously. </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest_articles_link">
+      <a class="color_change" href="#"> SEE ALL ARTICLES <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <footer class="flex_container ">
+    <span>BROWSE ALL SMASHING MAGAZINE TOPICS</span>
+    <ul class="magazine_topics">
+      <li><a href="#" class="footer_link">Accessibility</a></li>
+      <li><a href="#" class="footer_link">AndroidAnimation</a></li>
+      <li><a href="#" class="footer_link">Apps</a></li>
+      <li><a href="#" class="footer_link">CSS</a></li>
+      <li><a href="#" class="footer_link">Design</a></li>
+      <li><a href="#" class="footer_link">Design Patterns</a></li>
+      <li><a href="#" class="footer_link">Design Systems</a></li>
+      <li><a href="#" class="footer_link">E-Commerce</a></li>
+      <li><a href="#" class="footer_link">Freebies</a></li>
+      <li><a href="#" class="footer_link">Graphics</a></li>
+      <li><a href="#" class="footer_link">HTML</a></li>
+      <li><a href="#" class="footer_link">Illustrator</a></li>
+      <li><a href="#" class="footer_link">Inspiration</a></li>
+      <li><a href="#" class="footer_link">iOS</a></li>
+      <li><a href="#" class="footer_link">JavaScript</a></li>
+      <li><a href="#" class="footer_link">Mobile</a></li>
+      <li><a href="#" class="footer_link">Pattern Libraries</a></li>
+      <li><a href="#" class="footer_link">Performance</a></li>
+      <li><a href="#" class="footer_link">Photoshop</a></li>
+      <li><a href="#" class="footer_link">Plugins</a></li>
+      <li><a href="#" class="footer_link">React</a></li>
+      <li><a href="#" class="footer_link">Responsive Web Design</a></li>
+      <li><a href="#" class="footer_link">Service Workers</a></li>
+      <li><a href="#" class="footer_link">Sketch</a></li>
+      <li><a href="#" class="footer_link">Typography</a></li>
+      <li><a href="#" class="footer_link">UIUsability</a></li>
+      <li><a href="#" class="footer_link">User Experience</a></li>
+      <li><a href="#" class="footer_link">Wallpapers</a></li>
+      <li><a href="#" class="footer_link">Web Design</a></li>
+      <li><a href="#" class="footer_link">WordPress</a></li>
+      <li><a href="#" class="footer_link">Workflow</a></li>
+    </ul>
+
+    <p>With a commitment to quality content for the design community.</p>
+    <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2019.</p>
+    <p>Smashing is proudly running on <a href="#">Netlify</a>.</p>
+    <p>Fonts by <a href="#">Latinotype</a>.</p>
+
+    <div>
+      <figure class="bird_img">
+        <img class="left" src="assets/img/canary.png" alt="not found bird" width="150" height="175" />
+      </figure>
+      <ul class="aditional_links">
+        <li><i class="fa fa-pencil"></i>  <a href="#">Write for us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us (Impressum)</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Membership login</a></li>
+        <li><a href="#">Delivery times</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+    </div>
+  </footer>
+<a href="#">
+    <div class="fixed_icon rotate_effect">^</div>
+</a>
+</body>
 
 </html>
