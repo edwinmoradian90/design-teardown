@@ -6,7 +6,7 @@ This is the fifth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown)
 
-#### [Live Version](https://raw.githack.com/edwinmoradian90/design-teardown/features/index.html)
+#### [Live Version](https://raw.githack.com/edwinmoradian90/design-teardown/master/index.html)
 
 #### Screenshots
 
